@@ -1,0 +1,20 @@
+@import 'button';
+@import 'config';
+@import 'utilities';
+
+.section-title {
+    font-weight: $bold-weight;
+}
+
+.btn {
+    border-radius: 50%;
+    background-color:burlywood;
+    color: brown;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: $header-font;
+}
+
+@import 'mobile';

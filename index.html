@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="/index.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="showcase">
+        <div class="video-container">
+            <video src="/Untitled design.mp4" autoplay muted loop></video>
+        </div>
+        <div class="main-container">
+            <div class="border">
+                <h1>To-do list</h1>
+                <div class="inner-flex-class">
+                    <div id="container"></div>
+                </div>
+                <div class="section inputsection">
+                    <input class='data-input' type="text" id="name" placeholder="Item">
+                    <input class='data-input' type="number" id="time" min="1" max="120" placeholder="Time" style="width: 74px">
+                    <input class='data-input' type="number" id="diff" min="1" max="5" placeholder="Diff" style="width: 74px">
+                    <a id="send">Add</a>
+                </div>
+                <div class="section">
+                    <span class="section-title">Completed:</span>
+                    <span id="progress"></span>
+                </div>
+                <div class="section">
+                    <span class="section-title">Sort by time:</span>
+                    <a class="asc">Ascending</a>
+                    <a class="dsc">Descending</a>
+                </div>
+                <div class="section">
+                    <span class="section-title">Hardest item:</span>
+                    <span class="hardest-item"></span> -
+                    <span class="difficulty-deg"></span>
+                </div>
+            </div>
+        </div>
+</section>
+
+</body>
+
+</html>

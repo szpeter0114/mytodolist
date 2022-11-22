@@ -1,0 +1,36 @@
+%btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin: 3px;
+    border: 0.5px solid black;
+
+    &:hover {
+        transform: scale(.98);
+        cursor: pointer;
+    }
+}
+
+// .asc {
+//     @extend %btn;
+//     background-color: rgb(251, 190, 83);
+//     color: white;
+// }
+
+.asc {
+    @extend %btn;
+    background-color: rgb(214, 66, 7);
+    color: beige;
+}
+
+.dsc {
+    @extend %btn;
+    background-color: beige;
+    color: rgb(214, 66, 7);
+}
+
+#send {
+    @extend %btn;
+    background-color: cadetblue;
+    color: white;
+}
